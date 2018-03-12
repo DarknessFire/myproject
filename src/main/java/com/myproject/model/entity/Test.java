@@ -1,4 +1,4 @@
-package com.myproject.model;
+package com.myproject.model.entity;
 
 public class Test {
     public String id;
