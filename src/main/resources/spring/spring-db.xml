@@ -54,4 +54,22 @@
     <bean id="sqlSessionTemplate" class="org.mybatis.spring.SqlSessionTemplate">
         <constructor-arg index="0" ref="sqlSessionFactory"></constructor-arg>
     </bean>
+
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"></property>
+    </bean>
+    <!-- 配置事物属性 -->
+    <tx:advice id="txadvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*" propagation="REQUIRED"/>
+            <tx:method name="find*" read-only="true"/>
+        </tx:attributes>
+    </tx:advice>
+    <!-- 配置事物切入点,把事物通过切入点连接起来 -->
+    <aop:config>
+        <aop:pointcut expression="execution(* com.myproject.manager.*.*(..))"
+                      id="txPointCut"/>
+        <aop:advisor advice-ref="txadvice" pointcut-ref="txPointCut"/>
+    </aop:config>
 </beans>

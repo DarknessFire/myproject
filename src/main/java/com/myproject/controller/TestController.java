@@ -16,7 +16,7 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/test")
     public String test(){
-        Map<String,Object> map = (Map<String, Object>) dao.findById("1");
+        Map<String,Object> map = (Map<String, Object>) dao.queryObjectForMybatisById("1");
         System.out.print(map.get("a_id"));
         return "Hello world";
     }
