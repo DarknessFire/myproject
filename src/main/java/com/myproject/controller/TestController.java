@@ -1,23 +1,35 @@
 package com.myproject.controller;
 
-import com.myproject.dao.BaseDao;
+import com.github.pagehelper.PageInfo;
+import com.github.pagehelper.PageRowBounds;
+import com.google.gson.Gson;
+import com.myproject.manager.testManager;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.Map;
+import java.util.List;
 
 @Controller
 @RequestMapping("/")
 public class TestController {
     @Autowired
-    private BaseDao dao;
+    private testManager testManager;
+    Logger logger = Logger.getLogger(this.getClass());
+
     @ResponseBody
     @RequestMapping("/test")
-    public String test(){
-        Map<String,Object> map = (Map<String, Object>) dao.queryObjectForMybatisById("1");
-        System.out.print(map.get("a_id"));
+    public String test() {
+        logger.debug("hhhh");
+        PageRowBounds pageRowBounds = new PageRowBounds(1, 1);
+        List<Object> objects = testManager.selectListByEg("test.queryAll", null, pageRowBounds);
+        PageInfo pageInfo = new PageInfo(objects);
+        Gson gson = new Gson();
+        String s = gson.toJson(pageInfo);
+        System.out.println(s);
+
         return "Hello world";
     }
 }

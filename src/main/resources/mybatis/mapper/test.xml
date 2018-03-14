@@ -4,4 +4,10 @@
     <select id="queryId"  parameterType="java.lang.String" resultType="java.util.Map">
         select a_id  from test where a_id = 1
     </select>
+    <insert id="addObject" parameterType="java.lang.Integer">
+        insert into test(a_id) values(#{id})
+    </insert>
+   <select id="queryAll" resultType="java.util.Map">
+       select * from test
+   </select>
 </mapper>
