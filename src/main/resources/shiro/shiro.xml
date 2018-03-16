@@ -28,7 +28,7 @@
         <!-- 我们自定义的realm -->
         <property name="realm" ref="loginRealm"/>
         <!-- Subject工厂 -->
-        <property name="subjectFactory" ref="subjectFactory"/>
+      <!--  <property name="subjectFactory" ref="subjectFactory"/>-->
         <property name="sessionManager" ref="sessionManager"/>
         <!-- 缓存管理器 -->
         <property name="cacheManager" ref="cacheManager"/>

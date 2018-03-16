@@ -10,8 +10,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bfb7ef69-0f08-4ae4-b8ca-479d20027502" name="Default" comment="">
+    <list default="true" id="bfb7ef69-0f08-4ae4-b8ca-479d20027502" name="Default" comment="support shiro">
       <change beforePath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" />
       <change beforePath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" afterPath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,23 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="e#1236#1244#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="StatelessAuthcFilter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="328">
+              <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -60,8 +49,8 @@
       <file leaf-file-name="StatelessDefaultSubjectFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="76" />
+            <state relative-caret-position="100">
+              <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,8 +61,8 @@
       <file leaf-file-name="StatelessToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state relative-caret-position="-15">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
@@ -97,32 +86,65 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseMyBatisDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/BaseMyBatisDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseMyBatisDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/impl/BaseMyBatisDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-345">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shiro.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+            <state relative-caret-position="103">
+              <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="69" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ShiroFilterFactoryBean.class" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/tool/apache-maven-3.5.2/repository/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
+              <folding>
+                <marker date="1521080346958" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1521080346958" expanded="false" signature="151:1377" ph="..." />
+                <marker date="1521080346958" expanded="true" signature="1925:1932" ph="{}" />
+                <marker date="1521080346958" expanded="false" signature="1981:1992" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2020:2026" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2095:2106" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2145:2151" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2184:2195" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2216:2222" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2268:2279" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2304:2310" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2345:2356" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2379:2385" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2435:2446" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2475:2481" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2521:2532" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2560:2566" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2626:2637" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2676:2682" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2727:2738" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2758:2764" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2821:2832" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2855:2861" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="2923:2934" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="2971:2977" ph=" }" />
+                <marker date="1521080346958" expanded="true" signature="3069:3142" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="3206:3475" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="3524:3660" ph="{...}" />
+                <marker date="1521080346958" expanded="false" signature="3694:3705" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="3759:3765" ph=" }" />
+                <marker date="1521080346958" expanded="false" signature="3799:3810" ph=" { " />
+                <marker date="1521080346958" expanded="false" signature="3822:3828" ph=" }" />
+                <marker date="1521080346958" expanded="true" signature="3890:5414" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="5484:6385" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="6444:6847" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="6908:7330" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="7396:7851" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="7918:8075" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="8179:8570" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="8673:8701" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="8780:9263" ph="{...}" />
+                <marker date="1521080346958" expanded="true" signature="8887:9257" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -137,11 +159,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-jackson.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/spring-jackson.xml">
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="21" column="104" lean-forward="false" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="104" />
+            <state relative-caret-position="475">
+              <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DelegatingFilterProxy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://F:/tool/apache-maven-3.5.2/repository/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="437">
+              <caret line="305" column="9" lean-forward="true" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginRealm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -332,24 +384,6 @@
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,20 +422,17 @@
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -873,7 +904,7 @@
       <workItem from="1521018250784" duration="3602000" />
       <workItem from="1521075796848" duration="4721000" />
       <workItem from="1521081303152" duration="12271000" />
-      <workItem from="1521161800721" duration="24025000" />
+      <workItem from="1521161800721" duration="29776000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1520559108294</created>
@@ -1029,7 +1060,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521196888176</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="support shiro">
+      <created>1521197193201</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1521197193201</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1050,15 +1088,24 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116718000" />
+    <option name="totallyTimeSpent" value="122469000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10310735" sideWeight="0.5099278" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.10310735" sideWeight="0.5099278" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1066,17 +1113,17 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10310735" sideWeight="0.4900722" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831737" sideWeight="0.49305555" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28248587" sideWeight="0.4900722" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.49305555" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.4965278" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2584746" sideWeight="0.4878472" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.4965278" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6045198" sideWeight="0.4878472" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32909605" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.316787" sideWeight="0.4918033" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36552346" sideWeight="0.5081967" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1111,7 +1158,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../myproject/target/classes/log4j.properties" />
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/mybatis/mapper/test.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -1212,14 +1258,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="17" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1354,22 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="401">
-          <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="21" column="20" lean-forward="false" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="449">
@@ -1391,7 +1413,7 @@
         <state relative-caret-position="276">
           <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1401,7 +1423,7 @@
         <state relative-caret-position="176">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1441,18 +1463,10 @@
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <element signature="e#1236#1244#0" expanded="true" />
+            <element signature="e#1236#1244#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://F:/tool/apache-maven-3.5.2/repository/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-598">
-          <caret line="38" column="56" lean-forward="false" selection-start-line="38" selection-start-column="32" selection-end-line="38" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1472,14 +1486,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/spring-db.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="61" column="43" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/spring-jackson.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="379">
@@ -1488,20 +1494,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java">
+    <entry file="jar://F:/tool/apache-maven-3.5.2/repository/org/apache/shiro/shiro-spring/1.4.0/shiro-spring-1.4.0.jar!/org/apache/shiro/spring/web/ShiroFilterFactoryBean.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="322">
+          <caret line="248" column="0" lean-forward="false" selection-start-line="248" selection-start-column="0" selection-end-line="248" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1521080346958" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1521080346958" expanded="false" signature="151:1377" ph="..." />
+            <marker date="1521080346958" expanded="true" signature="1925:1932" ph="{}" />
+            <marker date="1521080346958" expanded="false" signature="1981:1992" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2020:2026" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2095:2106" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2145:2151" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2184:2195" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2216:2222" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2268:2279" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2304:2310" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2345:2356" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2379:2385" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2435:2446" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2475:2481" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2521:2532" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2560:2566" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2626:2637" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2676:2682" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2727:2738" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2758:2764" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2821:2832" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2855:2861" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="2923:2934" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="2971:2977" ph=" }" />
+            <marker date="1521080346958" expanded="true" signature="3069:3142" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="3206:3475" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="3524:3660" ph="{...}" />
+            <marker date="1521080346958" expanded="false" signature="3694:3705" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="3759:3765" ph=" }" />
+            <marker date="1521080346958" expanded="false" signature="3799:3810" ph=" { " />
+            <marker date="1521080346958" expanded="false" signature="3822:3828" ph=" }" />
+            <marker date="1521080346958" expanded="true" signature="3890:5414" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="5484:6385" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="6444:6847" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="6908:7330" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="7396:7851" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="7918:8075" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="8179:8570" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="8673:8701" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="8780:9263" ph="{...}" />
+            <marker date="1521080346958" expanded="true" signature="8887:9257" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/spring-db.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="61" column="43" lean-forward="false" selection-start-line="61" selection-start-column="43" selection-end-line="61" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/spring/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="31" column="8" lean-forward="false" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state relative-caret-position="-15">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
@@ -1524,10 +1587,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="26" column="26" lean-forward="false" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="34" column="67" lean-forward="true" selection-start-line="34" selection-start-column="67" selection-end-line="34" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://F:/tool/apache-maven-3.5.2/repository/org/springframework/spring-web/4.1.1.RELEASE/spring-web-4.1.1.RELEASE-sources.jar!/org/springframework/web/filter/DelegatingFilterProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="305" column="9" lean-forward="true" selection-start-line="305" selection-start-column="9" selection-end-line="305" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="21" lean-forward="true" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="76" />
+        <state relative-caret-position="100">
+          <caret line="14" column="20" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1536,8 +1633,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+        <state relative-caret-position="103">
+          <caret line="30" column="66" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="69" />
           <folding />
         </state>
       </provider>
