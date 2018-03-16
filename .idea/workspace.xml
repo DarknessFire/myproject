@@ -12,9 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bfb7ef69-0f08-4ae4-b8ca-479d20027502" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java" />
       <change beforePath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" afterPath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,8 +60,8 @@
       <file leaf-file-name="StatelessDefaultSubjectFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+            <state relative-caret-position="253">
+              <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="76" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -72,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StatelessToken.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StatelessToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="552">
-              <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+            <state relative-caret-position="506">
+              <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#359#360#0" expanded="true" />
@@ -120,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shiro.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="shiro.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
+            <state relative-caret-position="368">
+              <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -876,7 +873,7 @@
       <workItem from="1521018250784" duration="3602000" />
       <workItem from="1521075796848" duration="4721000" />
       <workItem from="1521081303152" duration="12271000" />
-      <workItem from="1521161800721" duration="23719000" />
+      <workItem from="1521161800721" duration="24025000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1520559108294</created>
@@ -1025,7 +1022,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521194587274</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="support shiro">
+      <created>1521196888176</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1521196888176</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1046,7 +1050,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116412000" />
+    <option name="totallyTimeSpent" value="116718000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -1484,14 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="26" column="3" lean-forward="false" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
@@ -1502,20 +1498,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessToken.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="22" />
+        <state relative-caret-position="506">
+          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#359#360#0" expanded="true" />
@@ -1535,6 +1521,24 @@
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#954#955#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="76" lean-forward="false" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" column="48" lean-forward="false" selection-start-line="31" selection-start-column="48" selection-end-line="31" selection-end-column="48" />
+          <folding />
         </state>
       </provider>
     </entry>
