@@ -31,7 +31,7 @@
 
     </bean>
     <!-- redis操作模板，这里采用尽量面向对象的模板 -->
-    <bean id="redisTemplate" class="org.springframework.data.redis.core.StringRedisTemplate">
+    <bean id="redisTemplate" class="com.myproject.util.LjzRedisUtil">
         <property name="connectionFactory" ref="connectionFactory"/>
         <property name="keySerializer">
             <bean class="org.springframework.data.redis.serializer.StringRedisSerializer"/>
