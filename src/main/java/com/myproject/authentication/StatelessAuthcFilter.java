@@ -3,6 +3,7 @@ package com.myproject.authentication;
 import org.apache.shiro.web.filter.AccessControlFilter;
 
 import javax.servlet.ServletRequest;
+import javax.servlet.ServletResponse;
 
 /**
  * @author lijinzao
@@ -11,12 +12,14 @@ import javax.servlet.ServletRequest;
 public class StatelessAuthcFilter extends AccessControlFilter {
 
     @Override
-    protected boolean isAccessAllowed(ServletRequest servletRequest, javax.servlet.ServletResponse servletResponse, Object o) throws Exception {
+    protected boolean isAccessAllowed(ServletRequest servletRequest, ServletResponse servletResponse, Object o) throws Exception {
         return false;
     }
 
     @Override
-    protected boolean onAccessDenied(ServletRequest servletRequest, javax.servlet.ServletResponse servletResponse) throws Exception {
+    protected boolean onAccessDenied(ServletRequest servletRequest, ServletResponse servletResponse) throws Exception {
+
+
         return false;
     }
 }

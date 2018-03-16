@@ -10,7 +10,6 @@ import org.apache.shiro.web.mgt.DefaultWebSubjectFactory;
  * @date 2018/3/16 15:59
  **/
 public class StatelessDefaultSubjectFactory extends DefaultWebSubjectFactory {
-
     @Override
     public Subject createSubject(SubjectContext context) {
         //不创建session
