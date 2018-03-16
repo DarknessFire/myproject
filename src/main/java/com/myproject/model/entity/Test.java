@@ -1,5 +1,8 @@
 package com.myproject.model.entity;
-
+/**
+*@author lijinzao
+*@date 2018/3/14
+**/
 public class Test {
     public String id;
 

@@ -10,6 +10,10 @@ import org.springframework.dao.DataAccessException;
 
 import java.util.List;
 
+/**
+ * @author lijinzao
+ * @date 2018/3/14
+ **/
 public class BaseMyBatisDaoImpl extends SqlSessionDaoSupport implements BaseMyBatisDao {
     @Autowired(required = false)
     @Override
@@ -33,8 +37,10 @@ public class BaseMyBatisDaoImpl extends SqlSessionDaoSupport implements BaseMyBa
         return getSqlSession().selectList(statement, obj);
     }
 
-    public PageInfo selectListByEg(String statement, Object obj, PageRowBounds pageRowBounds) {
+    public PageInfo queryPageInfoByEg(String statement, Object obj, PageRowBounds pageRowBounds) {
         List<Object> objects = getSqlSession().selectList(statement, obj, pageRowBounds);
         return new PageInfo(objects);
     }
+
+
 }

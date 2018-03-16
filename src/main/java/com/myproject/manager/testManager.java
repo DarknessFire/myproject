@@ -2,7 +2,10 @@ package com.myproject.manager;
 
 import com.myproject.dao.impl.BaseMyBatisDaoImpl;
 import org.springframework.stereotype.Service;
-
+/**
+*@author lijinzao
+*@date 2018/3/14
+**/
 @Service
-public class testManager extends BaseMyBatisDaoImpl {
+public class TestManager extends BaseMyBatisDaoImpl {
 }
