@@ -11,22 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bfb7ef69-0f08-4ae4-b8ca-479d20027502" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/model/entity/BaseEntity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/manager/UserManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/manager/impl/UserManagerImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java" />
       <change beforePath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../myproject/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../myproject/myproject.iml" afterPath="$PROJECT_DIR$/../myproject/myproject.iml" />
-      <change beforePath="$PROJECT_DIR$/../myproject/pom.xml" afterPath="$PROJECT_DIR$/../myproject/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/dao/BaseMyBatisDao.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/BaseMyBatisDao.java" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/dao/impl/BaseMyBatisDaoImpl.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/impl/BaseMyBatisDaoImpl.java" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/manager/testManager.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/manager/testManager.java" />
+      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java" />
+      <change beforePath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java" afterPath="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java" />
       <change beforePath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" afterPath="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" />
-      <change beforePath="$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,23 +35,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/pom.xml">
+      <file leaf-file-name="TestController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatelessDefaultSubjectFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="314">
+              <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1236#1244#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -91,11 +69,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+            <state relative-caret-position="276">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,7 +102,7 @@
       <file leaf-file-name="BaseMyBatisDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/impl/BaseMyBatisDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-345">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
@@ -139,6 +117,16 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shiro.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="401">
+              <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -226,11 +214,9 @@
         <option value="$PROJECT_DIR$/../myproject/src/main/resources/mybatis/config/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/../myproject/src/main/resources/conf/log4j.properties" />
         <option value="$PROJECT_DIR$/../myproject/src/main/resources/spring/spring-redis.xml" />
-        <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/util/LjzRedisUtil.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/LoginRealm.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessDefaultSubjectFactory.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/authentication/StatelessAuthcFilter.java" />
         <option value="$PROJECT_DIR$/../myproject/pom.xml" />
@@ -240,6 +226,8 @@
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/manager/TestManager.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/model/entity/BaseEntity.java" />
         <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java" />
+        <option value="$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml" />
+        <option value="$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java" />
       </list>
     </option>
   </component>
@@ -333,26 +321,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="authentication" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
@@ -362,44 +331,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="myproject" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="manager" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="myproject" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myproject" type="b2602c69:ProjectViewProjectNode" />
@@ -929,7 +860,7 @@
       <workItem from="1521018250784" duration="3602000" />
       <workItem from="1521075796848" duration="4721000" />
       <workItem from="1521081303152" duration="12271000" />
-      <workItem from="1521161800721" duration="18778000" />
+      <workItem from="1521161800721" duration="20868000" />
     </task>
     <task id="LOCAL-00001" summary="test commit">
       <created>1520559108294</created>
@@ -1057,7 +988,14 @@
       <option name="project" value="LOCAL" />
       <updated>1521183364034</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="support shiro">
+      <created>1521190633310</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1521190633310</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1078,7 +1016,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111471000" />
+    <option name="totallyTimeSpent" value="113561000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1168" height="840" extended-state="6" />
@@ -1129,7 +1067,8 @@
     <MESSAGE value="test commit" />
     <MESSAGE value="support mybatis and pagehelper" />
     <MESSAGE value="support redis" />
-    <option name="LAST_COMMIT_MESSAGE" value="support redis" />
+    <MESSAGE value="support shiro" />
+    <option name="LAST_COMMIT_MESSAGE" value="support shiro" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1405,30 +1344,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/util/LjzRedisUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="101">
           <caret line="70" column="6" lean-forward="false" selection-start-line="70" selection-start-column="6" selection-end-line="70" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
-            <element signature="e#631#632#0" expanded="true" />
-            <element signature="e#682#683#0" expanded="true" />
-            <element signature="e#1077#1078#0" expanded="true" />
-            <element signature="e#1122#1123#0" expanded="true" />
-            <element signature="e#1261#1262#0" expanded="true" />
-            <element signature="e#1327#1328#0" expanded="true" />
-            <element signature="e#1448#1449#0" expanded="true" />
-            <element signature="e#1495#1496#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#423#424#0" expanded="false" />
+            <element signature="e#468#469#0" expanded="false" />
+            <element signature="e#631#632#0" expanded="false" />
+            <element signature="e#682#683#0" expanded="false" />
+            <element signature="e#1077#1078#0" expanded="false" />
+            <element signature="e#1122#1123#0" expanded="false" />
+            <element signature="e#1261#1262#0" expanded="false" />
+            <element signature="e#1327#1328#0" expanded="false" />
+            <element signature="e#1448#1449#0" expanded="false" />
+            <element signature="e#1495#1496#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1437,14 +1368,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="401">
           <caret line="46" column="24" lean-forward="false" selection-start-line="46" selection-start-column="24" selection-end-line="46" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="24" column="58" lean-forward="false" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1482,22 +1405,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/BaseMyBatisDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/impl/BaseMyBatisDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,8 +1446,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/model/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="44" lean-forward="false" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        <state relative-caret-position="276">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/BaseMyBatisDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/common/dao/impl/BaseMyBatisDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/java/com/myproject/controller/TestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding>
+            <element signature="e#1236#1244#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../myproject/src/main/resources/shiro/shiro.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="401">
+          <caret line="44" column="23" lean-forward="false" selection-start-line="44" selection-start-column="23" selection-end-line="44" selection-end-column="23" />
           <folding />
         </state>
       </provider>

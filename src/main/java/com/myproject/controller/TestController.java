@@ -11,6 +11,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -38,9 +40,11 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/redis")
     public String redis() {
-        //stringRedisTemplate的操作
-        // String读写
-        redisTemplate.opsForSet().add("red_123", "1", "2", "3");
+        List<String> list = new ArrayList<String>();
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        redisTemplate.addSet("red_123", list);
         Set<String> red_123 = redisTemplate.opsForSet().members("red_123");
         Gson gson = new Gson();
         System.out.println(gson.toJson(red_123));
