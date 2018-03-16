@@ -28,12 +28,9 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/test")
     public String test() {
-        logger.debug("hhhh");
         PageRowBounds pageRowBounds = new PageRowBounds(1, 1);
         PageInfo pageInfo = testManager.queryPageInfoByEg("test.queryAll", null, pageRowBounds);
         Gson gson = new Gson();
-        String s = gson.toJson(pageInfo);
-        System.out.println(s);
         return "Hello world";
     }
 
