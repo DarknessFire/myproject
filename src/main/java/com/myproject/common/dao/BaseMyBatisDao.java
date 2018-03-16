@@ -1,4 +1,4 @@
-package com.myproject.dao;
+package com.myproject.common.dao;
 
 import com.github.pagehelper.PageInfo;
 import com.github.pagehelper.PageRowBounds;

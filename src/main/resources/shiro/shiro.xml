@@ -29,7 +29,7 @@
         <!-- 权限管理器 -->
         <property name="securityManager" ref="securityManager"/>
         <!-- 登录地址 -->
-        <property name="loginUrl" value="/login.jsp"/>
+        <property name="loginUrl" value="/index.jsp"/>
         <!-- 登录后跳转到业务页面 -->
         <property name="successUrl" value="/main.jsp"/>
         <!-- 错误页面 -->

@@ -15,11 +15,19 @@ public class LoginRealm extends AuthorizingRealm {
 
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
+        System.out.println("-------------------------------");
+        System.out.println("doGetAuthorizationInfo");
+        System.out.println("-------------------------------");
+
         return null;
     }
 
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
+        System.out.println("-------------------------------");
+        System.out.println("doGetAuthenticationInfo2");
+        System.out.println("-------------------------------");
+
         return null;
     }
 }

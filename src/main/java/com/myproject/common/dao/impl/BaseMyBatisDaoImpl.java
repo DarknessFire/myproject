@@ -1,8 +1,8 @@
-package com.myproject.dao.impl;
+package com.myproject.common.dao.impl;
 
 import com.github.pagehelper.PageInfo;
 import com.github.pagehelper.PageRowBounds;
-import com.myproject.dao.BaseMyBatisDao;
+import com.myproject.common.dao.BaseMyBatisDao;
 import org.mybatis.spring.SqlSessionTemplate;
 import org.mybatis.spring.support.SqlSessionDaoSupport;
 import org.springframework.beans.factory.annotation.Autowired;
