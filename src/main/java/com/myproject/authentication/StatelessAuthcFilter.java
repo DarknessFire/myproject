@@ -18,8 +18,8 @@ public class StatelessAuthcFilter extends AccessControlFilter {
 
     @Override
     protected boolean onAccessDenied(ServletRequest servletRequest, ServletResponse servletResponse) throws Exception {
-        System.out.println("----------------------");
-        System.out.println("onAccessDenied");
+
+
         return false;
     }
 }
