@@ -4,6 +4,7 @@ import com.github.pagehelper.PageInfo;
 import com.github.pagehelper.PageRowBounds;
 import com.google.gson.Gson;
 import com.myproject.manager.TestManager;
+import com.myproject.manager.UserManager;
 import com.myproject.util.LjzRedisUtil;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,6 +27,8 @@ public class TestController {
     private TestManager testManager;
     @Autowired
     private LjzRedisUtil redisTemplate;
+    @Autowired
+    private UserManager userManager;
 
     Logger logger = Logger.getLogger(this.getClass());
 

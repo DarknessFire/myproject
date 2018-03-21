@@ -15,5 +15,6 @@ public class StatelessDefaultSubjectFactory extends DefaultWebSubjectFactory {
         //不创建session
         context.setSessionCreationEnabled(false);
         return super.createSubject(context);
+
     }
 }
