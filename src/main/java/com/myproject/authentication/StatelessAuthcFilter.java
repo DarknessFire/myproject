@@ -1,7 +1,9 @@
 package com.myproject.authentication;
 
+import com.myproject.manager.UserManager;
 import com.myproject.model.vo.UserVO;
 import org.apache.shiro.web.filter.AccessControlFilter;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -14,6 +16,9 @@ import java.io.IOException;
  **/
 public class StatelessAuthcFilter extends AccessControlFilter {
 
+    @Autowired
+    private UserManager userManager;
+
     @Override
     protected boolean isAccessAllowed(ServletRequest servletRequest, ServletResponse servletResponse, Object o) throws Exception {
         return false;
@@ -21,7 +26,7 @@ public class StatelessAuthcFilter extends AccessControlFilter {
 
     @Override
     protected boolean onAccessDenied(ServletRequest servletRequest, ServletResponse servletResponse) throws Exception {
-        UserVO user = new UserVO();
+        UserVO user = userManager.findUser();
         user.setUserName("admin");
         StatelessToken token = new StatelessToken();
         token.setUsername(user.getUserName());

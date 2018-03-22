@@ -15,7 +15,6 @@
                         http://www.springframework.org/schema/aop/spring-aop-4.1.xsd
                         http://www.springframework.org/schema/tx
                         http://www.springframework.org/schema/tx/spring-tx-4.1.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
-
     <bean id="my" class="com.myproject.authentication.MyCredentialsMatcher"></bean>
     <!-- Subject工厂 -->
     <bean id="subjectFactory" class="com.myproject.authentication.StatelessDefaultSubjectFactory"/>
@@ -24,7 +23,6 @@
         <property name="sessionValidationSchedulerEnabled" value="false"/>
 
     </bean>
-    <bean id="mySubjectDao" class="com.myproject.authentication.MySubjectDao"></bean>
     <!-- 配置权限管理器 -->
     <bean id="loginRealm" class="com.myproject.authentication.LoginRealm">
         <property name="credentialsMatcher" ref="my"/>
@@ -34,12 +32,11 @@
         <property name="realm" ref="loginRealm"/>
         <!-- Subject工厂 -->
         <property name="subjectFactory" ref="subjectFactory"/>
-        <property name="subjectDAO" ref="mySubjectDao"></property>
         <property name="sessionManager" ref="sessionManager"/>
         <!-- 缓存管理器 -->
         <property name="cacheManager" ref="cacheManager"/>
     </bean>
-
+<bean id="myFilter" class="com.myproject.authentication.StatelessAuthcFilter"></bean>
     <bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
         <!-- 权限管理器 -->
         <property name="securityManager" ref="securityManager"/>
@@ -52,20 +49,12 @@
         <!-- 权限配置 -->
         <property name="filters">
             <util:map>
-
+                 <entry key="myFilter" value-ref="myFilter"></entry>
             </util:map>
         </property>
         <property name="filterChainDefinitions">
             <value>
-                <!-- anon无权限访问请求，此处是登录页面和登录请求 -->
-                /login = anon
-                /static/**=anon
-                <!-- 需要权限为add的用户才能访问此请求-->
-                /user=perms[user:add]
-                <!-- 需要管理员角色才能访问此页面 -->
-                /user/add=roles[admin]
-                <!--拦截非静态资源的所有请求-->
-                /** = authc
+                /** = myFilter
             </value>
         </property>
     </bean>

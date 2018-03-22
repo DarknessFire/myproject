@@ -9,7 +9,7 @@ import org.springframework.stereotype.Service;
  * @author lijinzao
  * @date 2018/3/16 16:39
  **/
-@Service
+@Service("userManager")
 public class UserManagerImpl extends BaseMyBatisDaoImpl implements UserManager {
 
     public UserVO findUser() {

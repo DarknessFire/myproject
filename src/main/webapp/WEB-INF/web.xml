@@ -52,6 +52,7 @@
         <param-name>contextConfigLocation</param-name>
         <param-value>
             classpath*:spring/applicationContext.xml;
+            classpath*:spring/spring-context.xml;
             classpath*:spring/spring-db.xml;
             classpath*:shiro/shiro.xml;
             classpath*:spring/spring-redis.xml

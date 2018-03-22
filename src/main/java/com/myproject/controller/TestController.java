@@ -35,6 +35,7 @@ public class TestController {
     @ResponseBody
     @RequestMapping("/test")
     public String test() {
+        userManager.findUser();
         PageRowBounds pageRowBounds = new PageRowBounds(1, 1);
         PageInfo pageInfo = testManager.queryPageInfoByEg("test.queryAll", null, pageRowBounds);
         return "Hello world";
